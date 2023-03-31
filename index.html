@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasuke</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-2 section-title">Sasuke</h1>
+            <img class="ms-2" src="./img/icons8-sharingan-100.png" alt="icone sharingan">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./img/Carrossel/pexels-cottonbro-studio-3296397.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/Carrossel/pexels-ivan-samkov-8951270.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/Carrossel/pexels-ivan-samkov-8951488.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/Carrossel/pexels-markus-winkler-2888679.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/Carrossel/pexels-pixabay-271715.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-iton"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row branco">
+                        <div class="col-md-5">
+                            <img src="./img/Sobre o restaurante.jpg" alt="" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+                            <p>
+                                Acreditamos que o frescor dos componentes e qualidade dos ingredientes são imprescindíveis para um sabor excepcional.
+                                Oferecemos o que há de melhor na Culinária Japonesa/Oriental desde o ano de 2014. Uma experiência completa - do atendimento ao alimento servido.
+                                Ambiente agradável, serviço primoroso e muitas opções de pratos para você ter uma experiência gastronômica encantadora!
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Espaço amplo e com algumas atividades para te deixar mais tranquilo quando vier nos visitar:
+                            </p>
+                            <ul>
+                                <li>Brinquedoteca</li>
+                                <li>Salas VIPs</li>
+                                <li>Karaoke privado</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container preto">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4 imagem">
+                        <img src="./img/Aniversários.jpg" alt="Aniversario" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>
+                            Aqui no Sasuke, aniversariantes ganham uma deliciosa sobremesa de cortesia da casa!
+                        </p>
+                    </div>
+                    <div class="col-md-4 imagem">
+                        <img src="./img/Recepção pra casamentos.jpg" alt="Casamento" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Recepção para casamentos
+                        </h3>
+                        <p>
+                            Aqui no Sasuke, os noivos são tratados como reis. Acima de 20 pessoas até R$1000,00 em consumação de bebidas alcoólicas!
+                        </p>
+                    </div>
+                    <div class="col-md-4 imagem">
+                        <img src="./img/Confraternizações.jpg" alt="Confraternização" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternicações
+                        </h3>
+                        <p>
+                            Aqui no Sasuke, confraternizações acima de 10 pessoas tem direito a qualquer uma das nossas 3 atividades (brinquedoteca, karaoke, sala Vip) de gratis!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container branco">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">cardápio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Bebidas nao alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Bebidas alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Bebidas/Não alcoólicas/Soda italiana.jpg" alt="Soda italiana" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Soda-itliana</h5>
+                                        <p>
+                                            Soda-italiana caprichada!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Bebidas/Não alcoólicas/Expresso.jpg" alt="Expresso" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Expresso</h5>
+                                        <p>
+                                            Aquele expressinho de lei!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Bebidas/Não alcoólicas/Sucos.jpg" alt="Suco" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Suco</h5>
+                                        <p>
+                                            Suco geladinho natural da fruta feito na hora (consulte os sabores)!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Bebidas/Alcoólicas/Carta de Vinhos do dia.jpg" alt="Vinhos" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Vinhos</h5>
+                                        <p>
+                                            Carta de vinhos (consulte a carta)!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Bebidas/Alcoólicas/Drinks do dia.jpg" alt="Drink do dia" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Drink do dia</h5>
+                                        <p>
+                                            Drink variados, um especial a cada dia da semana (consulte os nomes dos drinks)!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Bebidas//Alcoólicas/Gin tônica.jpg" alt="Gin Tônica" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Gin Tônica</h5>
+                                        <p>
+                                            Delicioso drink classico Gin e Tônica!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Bebidas/Alcoólicas/Negroni.jpg" alt="Negroni" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Negroni</h5>
+                                        <p>
+                                            Nosso melhor drink: o Negroni!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Entradas/Carpaccio de anchova.jpg" alt="Carpaccio de anchova" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Carpaccio de anchova</h5>
+                                        <p>
+                                            Delicioso Carpaccio de anchovas, nunca provou nada igual!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Entradas/Carpaccio de atum.jpg" alt="Carpaccio de atum" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Carpaccio de Atum</h5>
+                                        <p>
+                                            Incrivel e mais fresco impossivel Carpaccio de Atum, peixes pescados no proprio dia!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Entradas/Missô de camarão apimentado.jpg" alt="Missô de camarão apimentado" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Missô de camarão apimentado</h5>
+                                        <p>
+                                            Entrada chefe do Sasuke, o Missô com camarões apimentados com o toque certo do chef!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Pratos principais/Combo Mikudô.jpg" alt="Combo Mikudô" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Combo Mikudô</h5>
+                                        <p>
+                                            Nosso Combo Mikudô!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Pratos principais/Combo Akitera Salmon.jpg" alt="Combo akitera salmon" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Combo Akitera Salmon</h5>
+                                        <p>
+                                            Nosso Combo Akitera Salmon!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Pratos principais/Kotokoma.jpg" alt="Kotokoma" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Kotokoma</h5>
+                                        <p>
+                                            Delicioso Kotokoma!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Pratos principais/Ituko Tuna.jpg" alt="Ituko Tuna" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Ituko Tuna</h5>
+                                        <p>
+                                            Prato de Atum!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Pratos principais/Mesuko Kita.jpg" alt="Mesuko Kita" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Mesuko Kita</h5>
+                                        <p>
+                                            Nosso Mesuko Kita!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Pratos principais/Roll Serasaki.jpg" alt="Roll Serasaki" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Roll Serasaki</h5>
+                                        <p>
+                                            Nossa porção de rolinhos Serasaki
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Pratos principais/Tataki de camarão.jpg" alt="Tataki de camarão" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Tataki de camarão</h5>
+                                        <p>
+                                            Nosso Tataki de camarões!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Pratos principais/Tuna Kapamari.jpg" alt="Tuna Kapamari" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Tuna Kapamari</h5>
+                                        <p>
+                                            Nosso Kapamari de Atum!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Sobremesas/Brownie Kuri.jpg" alt="Brownie Kuri" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Brownie Kuri</h5>
+                                        <p>
+                                            Incrivel Brownie Kuri!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Sobremesas/Cheesecake Momochan Chokoreto.jpg" alt="Cheesecake Momochan Chokoreto" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Cheesecake Momochan Chokoreto</h5>
+                                        <p>
+                                            Sobremesa com o melhor nome que você ja viu, Cheesecake Momochan Chokoreto!
+                                        </p>
+                                    </div> 
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Sobremesas/Ichigo Cake.jpg" alt="Ichigo Cake" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Ichigo Cake</h5>
+                                        <p>
+                                            Sobremesa Ichigo Cake (Não é do Bleach)!
+                                        </p>
+                                    </div> 
+                                    <div class="col-md-3 imagem2">
+                                        <img src="./img/Sobremesas/Reiya Pie.jpg" alt="Reiya Pie" class="d-block w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Reiya Pie</h5>
+                                        <p>
+                                            Sobremesa Reiya Pie!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container preto">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control form-control-focus" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control form-control-focus" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control form-control-focus" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control form-control-focus" name="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 preto">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes <span class="text-colored">sociais</span>
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook preto"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram preto"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp preto"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill preto"></i>
+                                Endereço 
+                            </h3>
+                            <p>
+                                Rua Konoha - Número 42 - VF - Vila da folha 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#telefone").mask("(00) 00000-0000")
+        
+            $("form").validate({
+                rules: {
+                    nome: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    telefone: {
+                        required: false
+                    },
+                    mensagem: {
+                        required: true
+                    }
+                },
+                messages: {
+                    nome: "Por favor, insira seu nome.",
+                    email: "Por favor, insira um email valido com @.",
+                    mensagem: "Por favor, insira sua mensagem."
+                },
+                submitHandler: function(form) {
+                    alert("Enviado com sucesso!")
+                    $("form input").val("")
+                    $("form textarea").val("")
+                },
+                invalidHandler: function(evento, validador) {
+                    let camposIncorretos = validador.numberOfInvalids()
+                    if (camposIncorretos){
+                        alert(`Existem ${camposIncorretos} campos incorretos`)
+                    }
+                }
+            })
+        })
+    </script>
+
+</body>
+</html>
